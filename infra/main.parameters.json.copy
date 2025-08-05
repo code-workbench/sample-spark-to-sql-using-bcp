@@ -15,7 +15,7 @@
       "value": "sqladmin"
     },
     "sqlAdminPassword": {
-      "value": "Test1234"
+      "value": "REPLACE WITH PASSWORD"
     },
     "storageAccountSku": {
       "value": "Standard_LRS"
