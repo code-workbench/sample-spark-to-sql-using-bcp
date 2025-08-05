@@ -1,3 +1,4 @@
 infra/main.parameters.json
 config/azure_config.json
 infra/*.txt
+venv/*
