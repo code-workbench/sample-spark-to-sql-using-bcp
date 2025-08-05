@@ -47,11 +47,23 @@ bcp-investigation/
    - Apache Spark 3.x
    - SQL Server BCP utility
    - Azure CLI
+
 3. **Create Configuration / Parameters files:**
     '''
     cp ./infra/main.parameters.json.copy ./infra/main.parameters.json
     cp ./config/azure_config.json.copy ./config/azure_config.json
     '''
+
+4. **Install Azure CLI:**
+   ```bash
+   curl -sL https://aka.ms/InstallAzureCLIDeb | sudo bash
+   ```
+
+5. **Install BCP:**
+   ```
+   chmod +x ./scripts/install_bcp.sh
+   bash ./scripts/install_bcp.sh
+   ```
 
 ## Setup Instructions
 
@@ -72,11 +84,15 @@ bcp-investigation/
    ./scripts/setup_environment.sh
    ```
 
+**NOTE: The user account being used to run the scripts will need azure permissions to the blob storage account.  Specifically "Storage Blob Data Contributor"**
+
 3. **Run the Pipeline:**
    ```bash
    chmod +x scripts/run_pipeline.sh
    ./scripts/run_pipeline.sh
    ```
+
+**NOTE: To clean up all log files generated in execution, you can run the script '''bash ./scripts/clear_log_files.sh'''.**
 
 ## Pipeline Flow
 

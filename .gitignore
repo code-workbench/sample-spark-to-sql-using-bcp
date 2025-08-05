@@ -3,3 +3,9 @@ config/azure_config.json
 infra/*.txt
 venv/*
 *.tgz
+spark-3.5.0-bin-hadoop3/*
+spark-current
+spark-current/*
+*.log
+*.pyc
+*.csv
