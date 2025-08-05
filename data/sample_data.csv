@@ -1,0 +1,26 @@
+product_id,product_name,category,price,quantity_sold,sale_date,customer_id,region
+1,Laptop Pro X1,Electronics,1299.99,45,2024-01-15,1001,North America
+2,Wireless Headphones,Electronics,199.99,128,2024-01-15,1002,Europe
+3,Office Chair Deluxe,Furniture,299.99,67,2024-01-16,1003,North America
+4,Coffee Maker Premium,Appliances,89.99,234,2024-01-16,1004,Asia
+5,Running Shoes Elite,Sports,159.99,89,2024-01-17,1005,Europe
+6,Tablet Ultra,Electronics,599.99,156,2024-01-17,1006,North America
+7,Desk Lamp LED,Furniture,49.99,345,2024-01-18,1007,Asia
+8,Blender Max,Appliances,129.99,178,2024-01-18,1008,Europe
+9,Gaming Mouse,Electronics,79.99,267,2024-01-19,1009,North America
+10,Yoga Mat Premium,Sports,39.99,445,2024-01-19,1010,Asia
+11,Smart Watch Series 5,Electronics,399.99,123,2024-01-20,1011,Europe
+12,Bookshelf Modern,Furniture,189.99,89,2024-01-20,1012,North America
+13,Air Fryer Deluxe,Appliances,149.99,234,2024-01-21,1013,Asia
+14,Basketball Official,Sports,29.99,567,2024-01-21,1014,Europe
+15,Monitor 4K Ultra,Electronics,449.99,178,2024-01-22,1015,North America
+16,Sofa Comfort Plus,Furniture,899.99,23,2024-01-22,1016,Asia
+17,Microwave Smart,Appliances,199.99,145,2024-01-23,1017,Europe
+18,Tennis Racket Pro,Sports,179.99,67,2024-01-23,1018,North America
+19,Smartphone Latest,Electronics,799.99,234,2024-01-24,1019,Asia
+20,Dining Table Set,Furniture,599.99,34,2024-01-24,1020,Europe
+21,Vacuum Cleaner Robot,Appliances,299.99,123,2024-01-25,1021,North America
+22,Fitness Tracker,Sports,99.99,345,2024-01-25,1022,Asia
+23,Keyboard Mechanical,Electronics,129.99,189,2024-01-26,1023,Europe
+24,Wardrobe Premium,Furniture,699.99,45,2024-01-26,1024,North America
+25,Toaster Smart,Appliances,79.99,267,2024-01-27,1025,Asia

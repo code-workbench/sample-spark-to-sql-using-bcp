@@ -1,0 +1,33 @@
+{
+  "storage_account": {
+    "name": "yourstorageaccount",
+    "container": "data-pipeline",
+    "connection_string": "your_storage_connection_string",
+    "sas_token": "your_sas_token"
+  },
+  "sql_server": {
+    "server": "your-server.database.windows.net",
+    "database": "your_database",
+    "username": "your_username",
+    "password": "your_password",
+    "table": "sales_data",
+    "driver": "ODBC Driver 18 for SQL Server"
+  },
+  "azure_ad": {
+    "tenant_id": "your_tenant_id",
+    "client_id": "your_client_id",
+    "client_secret": "your_client_secret"
+  },
+  "spark": {
+    "app_name": "SparkToBlobToBCP",
+    "master": "local[*]",
+    "executor_memory": "2g",
+    "driver_memory": "1g"
+  },
+  "pipeline": {
+    "batch_size": 10000,
+    "max_retries": 3,
+    "timeout_seconds": 300,
+    "log_level": "INFO"
+  }
+}

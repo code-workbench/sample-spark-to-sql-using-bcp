@@ -1,0 +1,48 @@
+{
+  "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "baseName": {
+      "value": "sparkbcp"
+    },
+    "location": {
+      "value": "USGov Virginia"
+    },
+    "environment": {
+      "value": "dev"
+    },
+    "sqlAdminUsername": {
+      "value": "sqladmin"
+    },
+    "sqlAdminPassword": {
+      "value": "Test1234"
+    },
+    "storageAccountSku": {
+      "value": "Standard_LRS"
+    },
+    "sqlDatabaseSkuName": {
+      "value": "Basic"
+    },
+    "sqlDatabaseTier": {
+      "value": "Basic"
+    },
+    "sqlDatabaseCapacity": {
+      "value": 5
+    },
+    "allowAzureServices": {
+      "value": true
+    },
+    "clientIPAddress": {
+      "value": ""
+    },
+    "tags": {
+      "value": {
+        "Environment": "dev",
+        "Project": "Spark-BCP-Pipeline",
+        "Created-By": "Bicep",
+        "Owner": "YourName",
+        "Cost-Center": "Engineering"
+      }
+    }
+  }
+}

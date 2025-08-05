@@ -1,0 +1,10 @@
+14.0
+8
+1	SQLCHAR	0	0	"|"	1	category	""
+2	SQLCHAR	0	0	"|"	2	region	""
+3	SQLCHAR	0	0	"|"	3	sale_date	""
+4	SQLINT	0	0	"|"	4	total_quantity	""
+5	SQLDECIMAL	0	0	"|"	5	total_revenue	""
+6	SQLINT	0	0	"|"	6	product_count	""
+7	SQLDECIMAL	0	0	"|"	7	avg_price	""
+8	SQLCHAR	0	0	"\n"	8	last_processed	""
