@@ -47,6 +47,11 @@ bcp-investigation/
    - Apache Spark 3.x
    - SQL Server BCP utility
    - Azure CLI
+3. **Create Configuration / Parameters files:**
+    '''
+    cp ./infra/main.parameters.json.copy ./infra/main.parameters.json
+    cp ./config/azure_config.json.copy ./config/azure_config.json
+    '''
 
 ## Setup Instructions
 
