@@ -1,8 +1,7 @@
 -- Create target table for BCP import
 -- Run this script on your SQL Server database before running BCP import
 
-USE [your_database_name];
-GO
+-- Copy the following into the preview window on the Azure Portal to create the sql table.  
 
 -- Drop table if exists (for testing purposes)
 IF OBJECT_ID('dbo.sales_data', 'U') IS NOT NULL

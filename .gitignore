@@ -10,3 +10,4 @@ spark-current/*
 *.pyc
 *.csv
 *.txt
+infra/.env

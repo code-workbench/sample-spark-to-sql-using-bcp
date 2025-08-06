@@ -73,7 +73,6 @@ bcp-investigation/
     For more information see [infra README.md](./infra/README.md).
 
    ```bash
-   cd /home/kemack/github-projects/bcp-investigation
    chmod +x infra/deploy.sh
    ./infra/deploy.sh
    ```
@@ -84,7 +83,12 @@ bcp-investigation/
    ./scripts/setup_environment.sh
    ```
 
-**NOTE: The user account being used to run the scripts will need azure permissions to the blob storage account.  Specifically "Storage Blob Data Contributor"**
+**NOTE: Manual Updates in the Azure Portal**
+The following are the manual updates:
+
+- Update the SQL Server to enable Entra ID, adding your current user as the admin for SQL.  
+- Make sure to open the Database, and run the query found at "./sql/create_table.sql" to create the table for data to land in.
+- The user account being used to run the scripts will need azure permissions to the blob storage account.  Specifically "Storage Blob Data Contributor"
 
 3. **Run the Pipeline:**
    ```bash
